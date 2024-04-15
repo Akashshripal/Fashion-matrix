@@ -1,0 +1,673 @@
+
+
+
+.upper-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 15px 0px;
+   border-bottom: 1px solid white;
+}
+
+.upper-nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ibarra Real Nova';
+    font-style: italic;
+    font-size: 19px;
+}
+.upper-nav img{
+ margin-left: -60px;
+}
+.upper-nav img{
+    width: 450px;
+}
+
+#main-nav{
+    /* padding: 10px 0px; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    /* margin-left: 70px; */
+    position: fixed;
+    top: 40;
+    /* background-color: #00000046 ; */
+    min-width: 100%;
+}
+
+
+
+.main-nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: "jost";
+   padding-top: 18px;
+
+}
+.main-nav ul a{
+   text-decoration: none;
+   color: white;
+}
+.main-nav ul li{
+    padding: 0px 15px;
+    font-size: 12px;
+    font-weight: 500;
+    /* letter-spacing: .05em; */
+    text-transform: uppercase;
+}
+
+.main-nav div{
+    font-family: 'Ibarra Real Nova';
+    font-style: italic;
+}
+
+
+.main-nav div h5{
+    font-size: 23px;
+    padding-left: 30px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* margin-top: 61px; */
+  }
+
+  .main-navbar{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    /* background-color: #00000046; */
+  }
+
+
+
+  .form-control1 {
+    background-color: #fff0;
+    border: var(--bs-border-width) solid #101112;
+
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white !important;
+}
+
+.fashion-content{
+    background-color: #1f261e;
+    /* height: 671px; */
+    /* width: 700px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    width: 60%;
+}
+
+.fashion-content span {
+
+    font-family: "Ibarra Real Nova";
+    font-style: italic;
+    font-size: 19px;
+    line-height: 30px;
+    color: #9FA695
+}
+
+
+.fashion-content h3 {
+    font-family: "jost";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.19444em;
+    color: white;
+}
+
+.fashion-content p {
+    color: white;
+    width: 500px;
+    /* margin: 20px 0px 0px; */
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.89444em;
+    text-align: justify;
+
+}
+
+.fashion-sec-one{
+  display: flex;
+  max-height: 671px;
+  
+}
+.fashion-sec-one img{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.product-section h5{
+    font-family: "jost";
+        font-weight: 400;
+        color: #1f261e;
+        font-size: 25px;
+        line-height: 1.28em;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        margin-top: 20px;
+}
+
+.product-section span{
+    font-family: "Ibarra Real Nova";
+    font-style: italic;
+    font-size: 19px;
+    line-height: 30px;
+    color: #7c8059;
+    /* padding-bottom: 20px; */
+    
+}
+
+.product-section{
+    /* padding: 40px 0px; */
+    padding-bottom: 60px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,0px) !important;
+    
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: black !important;
+}
+.above-product{
+        margin: 70px 0;
+        /* border-bottom: 1px dashed #7c8059; */
+        padding-bottom: 50px;
+
+}
+.above-product h3{
+        font-family: "jost";
+        font-weight: 400;
+        color: #1f261e;
+        font-size: 45px;
+        line-height: 1.2em;
+        /* margin: 25px 0; */
+      
+}
+
+
+.above-product span {
+       font-family: "Ibarra Real Nova";
+    font-style: italic;
+    font-size: 19px;
+    line-height: 30px;
+    color: #7c8059;
+}
+.above-product p {
+    margin: 10px 0px;
+    font-family: "jost";
+    font-size: 20px;
+    text-align: justify;
+    /* font-weight: 400; */
+    color: black !important;
+}
+
+
+footer{
+  background-color: #1f261e;
+  /* height: 400px; */
+ /* margin-top: 40px; */
+ padding: 40px 0px;
+ padding-bottom: 0px;
+}
+
+.footer-content p{
+    color: #bfbfbf;
+    font-family: "jost";
+
+}
+
+.above-product p {
+    margin: 10px 0px;
+    font-family: "jost";
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 400;
+    color: black !important;
+}
+
+
+.mobile-nav{
+    display: none;
+}
+/* .form-control {
+   
+    color: #603b3b;
+    
+    background-color: #1f261e;
+ 
+    border-radius: 0px;
+    margin-bottom: 10px;
+} */
+
+input.trans-form::placeholder, textarea.trans-form::placeholder{
+    color: white;
+}
+
+
+input.trans-form, textarea.trans-form{
+    /* color: white; */
+    outline: none !important;
+    border: 1px solid #7c8059;
+    padding: 5px 5px;
+    margin: 8px 0px;
+    background-color: transparent;
+    border-radius: 0px;
+    font-family: "Ibarra Real Nova";
+    font-style: italic;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+}
+
+
+input.trans-form:focus ,textarea.trans-form:focus {
+    color: #ffffff;
+    background-color: #ffffff0d;
+    border-color: #7c8059;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-butn{
+    background-color:#7c8059 ;
+    border: 1px solid #7c8059 ;
+}
+
+.form-butn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #1f261e00;
+    border-color: #7c8059;
+}
+
+input.contact-input,textarea.contact-input{
+  border-radius: 0px;
+  padding: 17px 30px;
+  margin: 0px 0px;
+  color:#1f261e ;
+  background-color:white ;
+  font-size: 18px;
+  font-family: "Ibarra Real Nova";
+  font-style: italic;
+  border: 1px solid #9fa695;
+}
+input.contact-input{
+  border-bottom: none;
+
+}
+
+input.contact-input:focus,textarea.contact-input:focus{
+  color: #1f261e;
+}
+input.contact-input::placeholder,textarea.contact-input::placeholder{
+color:#9fa695;
+}
+
+  
+
+
+
+.footing-area{
+    border-bottom: 0.1px solid gray;
+    padding-bottom:20px ;
+}
+
+.footing-area a{
+    list-style: none;
+    color: white;
+}
+
+.foot-social-icons li{
+ padding: 0px 13px;
+}
+
+.bottom-text{
+    padding-top: 13px;
+
+}
+
+.bottom-text a{
+  text-decoration: none;
+  color: #bfbfbf ;
+  font-weight: 400;
+
+}
+.bottom-text a:hover{
+  font-weight: 500;
+
+}
+.bootom-cards{
+    padding-top: 60px;
+}
+
+/* .bottom-text .icons a{
+    padding-left: 6px;
+} */
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Basic styles for the menu */
+.menu-wrapper {
+    background-color: #333;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Dropdown styles */
+  .dropdown-wrapper {
+    position: relative;
+  }
+  
+  .dropdown-content-wrapper {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .sub-dropdown-wrapper {
+    position: relative;
+  }
+  
+  .sub-dropdown-content-wrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content-wrapper a,
+  .sub-dropdown-content-wrapper a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-wrapper a:hover,
+  .sub-dropdown-content-wrapper a:hover {
+    background-color: #fff;
+  }
+  
+  .dropdown-wrapper:hover .dropdown-content-wrapper {
+    display: block;
+    margin-top: 2px;
+    
+  }
+  
+  .sub-dropdown-wrapper:hover .sub-dropdown-content-wrapper {
+    display: block;
+    margin-left: 1px;
+  }
+  .above-product2 img,.above-product2 p{
+    width: 90%;
+  }
+  /* .fashion-content-last{
+    height: 626px;
+  } */
+
+  .infr-btn{
+    padding: 15px 30px;
+    /* border: 2px dashed #7c8059; */
+    border-radius: 0px 10px 0px 10px;
+    font-weight: 500;
+    font-family: "jost";
+    background-color:#1f261e;
+    color: white;
+    font-size: 11px;
+    letter-spacing: .275em;
+  }
+  .infr-btn:hover{
+    background-color:white;
+    font-family: "jost";
+    border: 1px dashed #1f261e;
+    border-radius: 0px 10px 0px 10px;
+    font-weight: 500;
+
+  }
+  /* .infr-btn:focus-visible{
+    border: 1px dashed #7c8059 !important;
+
+    border-radius: 0px 10px 0px 10px !important;
+       
+  } */
+
+  .breadcrum{
+   
+    height: 500px;
+    /* text-align: center; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+  }
+
+  .breadcrum h1{
+    font-size: 51px;
+    font-family:"jost";
+    font-weight: 400;
+    line-height: 1.16667em;
+  }
+  .breadcrum-new{
+    height: 650px;
+    object-fit: cover;
+   width: 1349px;
+  }
+  .breadcrum-new{
+    background-size: 100%;
+
+         
+  }
+
+  .product-component{
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .contact-details{
+    height: 500px;
+    padding-top: 100px;
+  }
+  .detail h2{
+    font-size: 42px;
+    font-weight: 400;
+    color: #1f261e;
+    font-family: "jost";
+    /* line-height: 1.2rem; */
+  }
+  .detail span{
+    font-family: 'Ibarra Real Nova';
+    font-style: italic;
+    font-size: 19px;
+    line-height: 30px;  
+    color: #7c8059;
+    margin: 10px 0px 0px;
+  }
+
+  .detail p{
+    color: #333333;
+    font-family: "jost";
+    font-size: 18px;
+    /* line-height: 30px;   */
+
+  }
+
+  .contact-btn{
+    padding: 20px 60px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .contact-detail2{
+    padding-top: 20px;
+    padding-bottom: 6%;
+  }
+  .detail-last{
+     padding-left: 70px;
+  }
+
+  .detail-middle{
+    border-right: 1px dashed #7c8059;
+  }
+  .above-product h3{
+    font-family: "jost";
+    font-weight: 400;
+    color: #1f261e;
+    font-size: 38px;
+    line-height: 1.2em;
+    padding-top: 25px;
+  }
+  .product-head h3{
+    font-family: "jost";
+    font-weight: 400;
+    color: #1f261e;
+    font-size: 38px;
+    line-height: 1.2em;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #7c8059;
+    width: 120px;
+    letter-spacing: 1px;
+  }
+  .dress-slider img{
+       
+  }
+
+  /* .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: black;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: 'prev';
+  color: black;
+} */
+.margin-up{
+  margin-top: 125px;
+}
+
+/* #f2efeb */
+.product-showing img{
+  width: 100%;
+  padding: 50px 30px;
+}
+.jacket img{
+  padding: 0px 30px;
+}
+
+.product-section a{
+  text-decoration: none;
+}
+.product-section a:hover  h5{
+ color:#7c8059 ;
+}
+
+.product-heading h2{
+  font-family: "jost";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.19444em;
+  color: black;
+  padding-top: 30px;
+  text-align: center;
+}
+.shirt img{
+  padding: 10px 30px;
+}
+
+.shorts img{
+  padding: 0px;
+
+}
+/* 
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: 'prev';
+  margin-bottom: 100px !important;
+  color: black;
+  padding: 30px;
+
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: 'next';
+  margin-bottom: 100px;
+  color: black;
+  padding: 30px;
+
+  
+} */
+.west-btn{
+  border: 1px dashed #7c8059;
+}
+.west-btn:hover{
+  background-color: transparent;
+  color: white;
+}
+
+.home-btn{
+  background: white;
+  border: 1px dashed #7c8059 ;
+  color: #7c8059;
+}
+
+.home-btn:hover{
+  color: white;
+  background: #1f261e;
+  
+}
